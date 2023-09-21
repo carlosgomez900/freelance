@@ -1,3 +1,12 @@
+:root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario:#0097a7;
+    --gris:#757575;
+    
+}
+
 html {
     font-size: 62.5%;
 }
@@ -12,18 +21,8 @@ body {
     font-size: 3.8rem;
 }
 
-span{ 
-    color: green;
-}
-
 .titulo span {
-    font-size: 20px;
-    color: blue;
-}
-
-.titulo span {
-    font-size: 20px;
-    color: red;
+    font-size: 2rem;
 }
 
 
