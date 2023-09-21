@@ -7,12 +7,23 @@ body {
     /* 1 rem es igual a 10px */
 }
 
-h1 {
+.titulo {
     text-align:center;
     font-size: 3.8rem;
 }
 
-span {
-    font-size: 20px;
+span{ 
+    color: green;
 }
+
+.titulo span {
+    font-size: 20px;
+    color: blue;
+}
+
+.titulo span {
+    font-size: 20px;
+    color: red;
+}
+
 
