@@ -22,7 +22,7 @@ h1 span {
 }
 
 h2 span {
-    color: blue;
+    color: rgb(13, 13, 14);
 }
 
 .titulo {
@@ -72,4 +72,12 @@ h2 span {
 .navegacion-principal a:hover {
     background-color: var(--primario);
     color: var(--oscuro);  
+}
+
+.hero { 
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 410px;
+    padding: 20px;
 }
