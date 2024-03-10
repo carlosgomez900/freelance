@@ -11,10 +11,21 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box; /* Hack para Box Model*/
+    scroll-snap-type: y mandatory;
 }
+
+/*Scroll snap*/
+.servicios, 
+.navegacion-principal,
+.formulario {
+    scroll-snap-align: center;
+    scroll-snap-stop:always ;
+}
+
 *, *:before, *:after {
     box-sizing: inherit;
     }
+    
 
 body {
     font-size: 16px;
@@ -169,6 +180,7 @@ h1, h2, h3 {
     align-items: flex-end;
 }
 
+
 /*servicios*/
 
 @media (min-width:768px) {
@@ -265,5 +277,8 @@ h1, h2, h3 {
     border-radius: .5rem;
 }
 
-/**/
+/*footer*/
+.footer {
+    text-align: center;
+}
 
